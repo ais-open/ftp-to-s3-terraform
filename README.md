@@ -45,7 +45,7 @@
 ***
 *** Shields make it easy to see some information about your repo, here are some optional additional shields you 
 *** may be interested in adding or removing
--->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -53,8 +53,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Twitter][twitter-shield]][twitter-url]
-
-
+-->
 
 <!-- blog LOGO -->
 <br />
