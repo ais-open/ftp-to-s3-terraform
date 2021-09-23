@@ -66,8 +66,6 @@
   <h3 align="center">Automating File Transfer from FTP Server to AWS S3 Bucket Using Terraform</h3>
 
   <p align="center">
-    A DoD client requested support with automated file transfers. The client has files placed in a common folder that can be accessed by the standard File Transfer Protocol (FTP). Given the FTP server’s connection information, the client requested the files to be moved to an Amazon Web Services (AWS) S3 bucket where their analysis tools are configured to use.
-    <br />>
 Automating the download and upload process would save users time by allowing for a scheduled process to transfer data files. This can be achieved using a combination of AWS Lambda and EC2 services. AWS Lambda provides a plethora of triggering and scheduling options and the power to create EC2 instances. By creating an EC2 example, a program or script can avoid Lambdas’ limitations and perform programmatic tasking such as downloading and uploading. Additionally, this can be done using Terraform to allow for deployment in any AWS space.
     <br />
     <a href="https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/"><strong>Go to AIS Blog Post »</strong></a>
@@ -133,16 +131,16 @@ Automating the download and upload process would save users time by allowing for
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these steps.
+The code for the blog post is in the `ftp_to_s3_instance` and `ftp_to_s3_invoke` folders.
 
 ### Prerequisites
 
-* Terraform v. 0.12.29
+* Terraform v0.12.29 (this is not tested with newer versions)
 * AWS Account
 
 ### Usage
 
-Terraform code can be used with the `plan` and `apply` functions
+Terraform code can be used with the `plan` and `apply` functions. Please read the [blog post](https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/) for a description of the code base.
 
 
 <!-- LICENSE 
@@ -162,9 +160,9 @@ Your choice to use twitter and or linkedin here
 
 Your Name - person@ais.com
 
-[@kcjonesevans](https://twitter.com/kcjonesevans)
+[Twitter @kcjonesevans](https://twitter.com/kcjonesevans)
 
-[@kcjonesevans](https://linkdein.com/kcjonesevans) 
+[Linkedin @kcjonesevans](https://linkdein.com/kcjonesevans) 
 
 blog Link: [https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/](https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/)
 
@@ -173,11 +171,7 @@ blog Link: [https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-
 <!--  ***********************!!! ATTENTION ACKNOWLEDGEMENTS!!!***********************  
 *** treat this like a reference, did you heavily rely on some stackoverflow answers? Followed a blog post? 
 -->
-## Acknowledgements
 
-* []()
-* []()
-* []()
 
 
 
