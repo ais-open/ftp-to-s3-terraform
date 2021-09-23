@@ -1,21 +1,52 @@
+<!--
+*** Welcome to the AIS Blog Repo Template! 
+*** Please go through this markdown template and look for attention lines for notes on how to fill out sections. 
+*** Attention lines will look like the following:
+*** ***********************!!! ATTENTION !!!***********************
+***
+*** If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+*** ***********************!!! ATTENTION - DO THIS FIRST !!!***********************
+***
+*** This README uses "reference style links" https://www.markdownguide.org/basic-syntax/#reference-style-links
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ). 
+*** This is an optional, concise syntax you may use. Either modify the links below or don't use them and replace *** the fields manually in the template
+*** 
+*** ***********************!!! ATTENTION - DO THIS SECOND !!!***********************
+*** Do a search and replace for the following:
+*** kcjonesevans, ftp-to-s3-terraform, kcjonesevans, kcjonesevans, kc.jones-evans@ais.com, ftp-to-s3-terraform, Automating File Transfer from FTP Server to AWS S3 Bucket Using Terraform, blog_description
+*** 
+-->
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
+<!--  Reference links -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/kcjonesevans/repo.svg?style=for-the-badge
 [contributors-url]: https://github.com/ais-open/blog-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/kcjonesevans/repo.svg?style=for-the-badge
 [forks-url]: https://github.com/ais-open/blog-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/kcjonesevans/repo.svg?style=for-the-badge
 [stars-url]: https://github.com/ais-open/blog-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/kcjonesevans/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/ais-open/blog-template/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/ais-open/blog-template/blob/main/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/kcjonesevans/repo.svg?style=for-the-badge
+[license-url]: https://github.com/ais-open/blog-template/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/company/appliedis
+[linkedin-url]: https://linkedin.com/in/kcjonesevans
 [twitter-shield]: https://img.shields.io/badge/Tweet-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[twitter-url]: https://twitter.com/aisteam
+[twitter-url]: https://linkedin.com/in/kcjonesevans
 
 
-<!-- [![Contributors][contributors-shield]][contributors-url] -->
+
+<!--***********************!!! ATTENTION Shields !!!*********************** 
+***
+*** Shields make it easy to see some information about your repo, here are some optional additional shields you 
+*** may be interested in adding or removing
+-->
+[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -25,31 +56,40 @@
 
 
 
+<!-- blog LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/kcjonesevans/ftp-to-s3-terraform">
     <img src="images/AIS-logo.png" alt="Applied Information Sciences Logo" height="80">
   </a>
 
-  <h3 align="center">AIS Blog Template</h3>
-  <h4 align="center"> README First</h4>
+  <h3 align="center">Automating File Transfer from FTP Server to AWS S3 Bucket Using Terraform</h3>
 
   <p align="center">
-    A template repository for code supporting AIS blog posts. 
+    A DoD client requested support with automated file transfers. The client has files placed in a common folder that can be accessed by the standard File Transfer Protocol (FTP). Given the FTP server’s connection information, the client requested the files to be moved to an Amazon Web Services (AWS) S3 bucket where their analysis tools are configured to use.
+    <br />>
+Automating the download and upload process would save users time by allowing for a scheduled process to transfer data files. This can be achieved using a combination of AWS Lambda and EC2 services. AWS Lambda provides a plethora of triggering and scheduling options and the power to create EC2 instances. By creating an EC2 example, a program or script can avoid Lambdas’ limitations and perform programmatic tasking such as downloading and uploading. Additionally, this can be done using Terraform to allow for deployment in any AWS space.
     <br />
-    <a href="https://ais.com/blog"><strong>Go to the AIS Blog »</strong></a>
+    <a href="https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/"><strong>Go to AIS Blog Post »</strong></a>
     <br />
     <br />
-    <a href="https://ais-open.github.io/blog-template">View Github Pages</a>
+    <!-- ***********************!!! ATTENTION Extra links!!!***********************
+    *** Do you have a demo (gitHub pages), video, or would you like to open issue tracking on this repo?
+    <a href="https://github.com/kcjonesevans/ftp-to-s3-terraform">View Demo</a>
     · 
-    <a href="https://github.com/ais-open/blog-template/issues">Report Bug</a> 
+    <a href="https://github.com/kcjonesevans/ftp-to-s3-terraform/issues">Report Bug</a> 
     · 
-    <a href="https://github.com/ais-open/blog-template/issues">Request Feature</a> 
+    <a href="https://github.com/"Example 3rd link</a> 
+    -->
 
   </p>
 </p>
 
 
+
+<!-- ***********************!!! ATTENTION Table of contents!!!*********************** 
+*** Add and remove sections here
+-->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
@@ -67,49 +107,47 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
-## About The Blog Template
 
-Providing a template repository with instructions for AIS blog authors to post their supporting code in a repository. The blog authors can reference the code repo in their blog post.
+
+<!-- ***********************!!! ATTENTION About!!!*********************** 
+*** did you have some screenshots? maybe some more to say about the code?
+*** add some information on how this code can be run, typical readme style.-->
+## About The Automating File Transfer from FTP Server to AWS S3 Bucket Using Terraform
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 ### Built With
 
-* [Github supported Markdown](https://guides.github.com/features/mastering-markdown/)
-* [Github Pages](https://pages.github.com/)
+* [Terraform](https://www.terraform.io/)
+* [AWS](https://aws.amazon.com)
+
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
+To get a local copy up and running follow these steps.
+
 ### Prerequisites
 
-* Text editor that supports markdown (e.g. vs code, atom, sublime)
-* Knowledge of git and github [Ask for help](https://github.com/orgs/ais-open/teams/maintainers)
-* A github account with your ais email associated with it
-    * add your ais email to your github account if it is not already associated
-    * authorize your security key to be used on the ais-open organization
+* Terraform v. 0.12.29
+* AWS Account
 
-### Getting a Repo
+### Usage
 
-* TO DO * determine the appropriate process
+Terraform code can be used with the `plan` and `apply` functions
 
-1. Submit a ticket to IT to be added to the ais-open organization
-4. Navigate [Generate Repo From Template](https://github.com/ais-open/blog-template/generate) or click the big green "Use this template" button above.
-5. Give your repo a name, description and set your new repo as private until you are ready to share it with the world.
-![Create Repo Screen Shot](/images/create-repo.png)
-1. Once your repo is created, go to settings -> manage access. Add the ais-open/maintainers group to your repository.
-![Manage Access Screen Shot](/images/manage-access.png)
-2. Next, go to Options, and scroll down to Features. Turn off the issues and projects,
-![Feature Selection Screen Shot](/images/feature-selection.png)
-3. Finally! upload your code and use the `TEMPLATE` file to create your `README`
 
-## Usage
-
-Use the `TEMPLATE` file to make your `README` for your repository. Delete this file when you are ready to make the repo public. 
-
+<!-- LICENSE 
+Before you continue here, the MIT and CC license are for open-source. If you think you have something that is not open-source please check with someone about which license you should be using.  
+-->
 ## License
 
 The content of this project itself is licensed under the Creative Commons Attribution 3.0 Unported license, and the source code is licensed under the MIT license.
@@ -117,12 +155,29 @@ The content of this project itself is licensed under the Creative Commons Attrib
 See `LICENSE` for more information.
 
 
+<!-- CONTACT 
+Your choice to use twitter and or linkedin here
+-->
 ## Contact
 
-Contact the [@ais-open/maintainers](https://github.com/orgs/ais-open/teams/maintainers) if you have any questions, issues, or just need to screen share to make sure things are going well. 
+Your Name - person@ais.com
 
-Feedback is welcomed!
+[@kcjonesevans](https://twitter.com/kcjonesevans)
 
+[@kcjonesevans](https://linkdein.com/kcjonesevans) 
+
+blog Link: [https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/](https://www.ais.com/automating-file-transfer-from-ftp-server-to-aws-s3-bucket-using-terraform/)
+
+
+
+<!--  ***********************!!! ATTENTION ACKNOWLEDGEMENTS!!!***********************  
+*** treat this like a reference, did you heavily rely on some stackoverflow answers? Followed a blog post? 
+-->
+## Acknowledgements
+
+* []()
+* []()
+* []()
 
 
 
