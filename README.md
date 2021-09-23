@@ -100,14 +100,12 @@ Automating the download and upload process would save users time by allowing for
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -117,8 +115,6 @@ Automating the download and upload process would save users time by allowing for
 *** did you have some screenshots? maybe some more to say about the code?
 *** add some information on how this code can be run, typical readme style.-->
 ## About The Automating File Transfer from FTP Server to AWS S3 Bucket Using Terraform
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 ### Built With
 
