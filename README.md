@@ -157,7 +157,7 @@ Your choice to use twitter and or linkedin here
 -->
 ## Contact
 
-Your Name - person@ais.com
+K.C. Jones-Evans - kc.jones-evans@ais.com
 
 [Twitter @kcjonesevans](https://twitter.com/kcjonesevans)
 
